@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Playlists do momento</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        .header {
+            background-color: #1db954;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+        }
+        .header img {
+            position: absolute;
+            left: 20px;
+            height: 40px;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 12px;
+        }
+        .playlists {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .playlist {
+            flex: 1 1 calc(25% - 20px); /* 4 colunas com espaçamento */
+            margin: 10px;
+        }
+        .playlist iframe {
+            border-radius: 12px;
+            width: 100%;
+            height: 352px;
+            border: none;
+        }
+        @media (max-width: 992px) {
+            .playlist {
+                flex: 1 1 calc(33.333% - 20px); /* 3 colunas em telas médias */
+            }
+        }
+        @media (max-width: 768px) {
+            .playlist {
+                flex: 1 1 calc(50% - 20px); /* 2 colunas em telas menores */
+            }
+        }
+        @media (max-width: 480px) {
+            .playlist {
+                flex: 1 1 100%; /* 1 coluna em telas pequenas */
+            }
+        }
+        .footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #1db954;
+            color: white;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/2/26/Spotify_logo_with_text.svg" alt="Spotify Logo">
+        <h1>Playlists do momento</h1>
+    </div>
+    <div class="container">
+        <div class="playlists">
+            <div class="playlist"><iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/2VXqxdATTHJfYdwHGbhhXo?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe></div>
+            <div class="playlist"><iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/7nhIJOV0neCOdgBUJtn2fN?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe></div>
+            <div class="playlist"><iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/2kqEVaKZqZVsjBk5znK3xN?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe></div>
+            <div class="playlist"><iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/2XLadWcgpHGnSR3TJ73CJk?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe></div>
+            <div class="playlist"><iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/5DqZgSZXkP0yxP72bYiq4r?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe></div>
+            <div class="playlist"><iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/7zxO9M0jbsqaN7NGNxtsxA?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe></div>
+            <div class="playlist"><iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/4XgHhJuRlu2f55kLWz5BX6?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe></div>
+            <div class="playlist"><iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/7nFryJpRTmjH1DJ7534DY0?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe></div>
+            <div class="playlist"><iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/4yCQ4E0cLuiA8bJ7M165fO?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe></div>
+            <div class="playlist"><iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/3HPGy2TTTBBL9w2Jzldsty?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe></div>
+            <div class="playlist"><iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/27dxVocxwlyVOdpAqy4LSg?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe></div>
+            <div class="playlist"><iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/1BDauvM5GgChfvT1iX1i3n?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe></div>
+            <div class="playlist"><iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/4HNgXbhFLT0KnHEI3HKPec?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe></div>
+            <div class="playlist"><iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/1zwmJJTggKfdW2EPtzaA2D?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe></div>
+            <div class="playlist"><iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/5zc19sElmuLgDzbEhlvWPg?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe></div>
+            <div class="playlist"><iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/7sEjhqBXtFy36Qx0lkM9py?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe></div>
+            <div class="playlist"><iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/3npDrqUotKWeylFbmnOCf4?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe></div>
+            <div class="playlist"><iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/3vimj5Gv3zF80Ne6MQj5RI?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe></div>
+            <div class="playlist"><iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/2EmML8ufcGE39XC1DJFV38?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe></div>
+            <div class="playlist"><iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/21R8pPgWuQWr6j8Quc29iz?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe></div>
+            <div class="playlist"><iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/2ga29gnExYFNVKn9vMe3YW?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe></div>
+            <div class="playlist"><iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/3wBkwMKPOu9n7X2Ij3FPTX?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe></div>
+            <div class="playlist"><iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/4BNSdrfGmZ550nyLj93I62?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe></div>
+            <div class="playlist"><iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/7Cl36urjVhOJAmUCwKnY8M?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe></div>
+            <div class="playlist"><iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/1FGr7NjX9lC1liM93jLqFY?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe></div>
+            <div class="playlist"><iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/5ZpZGn687khlfUevsfxzCf?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe></div>
+            <div class="playlist"><iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/0pesfwwltCVR99t3ikglKF?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe></div>
+            <div class="playlist"><iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/0kyJrnoBS3DwwlLY3TVGmd?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe></div>
+            <div class="playlist"><iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/4k74zE5st8MyxiEiWlVE6U?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe></div>
+            <div class="playlist"><iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/3bGQXeGELWPtInLfziuk1V?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe></div>
+            <div class="playlist"><iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/0a3kfUGAU87RbiMclGR75M?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe></div>
+            <div class="playlist"><iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/4Iyv5ZRLtKhlL0BdbHVXiq?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe></div>
+            <div class="playlist"><iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/2ukcpg0QksY29iN5bTQ6RJ?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe></div>
+            <div class="playlist"><iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/2oyhkgPF9kWFRToBg2l0K1?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe></div>
+            <div class="playlist"><iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/0fLcMLYj9aYU4gyoJRzDL2?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe></div>
+            <div class="playlist"><iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/6ieUUWqWeA0HLyqRBex6hk?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe></div>
+            <div class="playlist"><iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/5AYkxrGtx1RxSmhcZ2R65s?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe></div>
+            <div class="playlist"><iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/76pq9Bss3W8oTLwqNzmDZ2?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe></div>
+        </div>
+    </div>
+    <div class="footer">
+        &copy; 2024 Playlists do momento
+    </div>
+</body>
+</html>
